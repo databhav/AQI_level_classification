@@ -5,7 +5,7 @@ import streamlit as st
 from sklearn.preprocessing import LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
 
-df = pd.read_csv('/AQI.csv')
+df = pd.read_csv('AQI.csv')
 st.set_page_config(layout='wide')
 selectbox_vals = 'AQI Value','CO AQI Value','Ozone AQI Value','NO2 AQI Value', 'PM2.5 AQI Value'
 
